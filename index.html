@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Green School Plant ID</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #e8f5e9, #c8e6c9);
+}
+
+/* Container utama */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    min-height: 100vh;
+}
+
+/* Bagian teks */
+.text-section {
+    width: 50%;
+}
+
+.text-section h1 {
+    font-size: 40px;
+    color: #1b5e20;
+    margin-bottom: 20px;
+}
+
+.text-section p {
+    font-size: 18px;
+    color: #2e7d32;
+    margin-bottom: 30px;
+}
+
+/* Tombol */
+.btn {
+    display: inline-block;
+    margin: 8px 10px 0 0;
+    padding: 12px 28px;
+    background-color: #2e7d32;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #1b5e20;
+}
+
+/* Bagian gambar */
+.image-section {
+    width: 45%;
+    text-align: center;
+}
+
+.image-section img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+/* RESPONSIVE UNTUK HP */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .text-section {
+        width: 100%;
+    }
+
+    .image-section {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .text-section h1 {
+        font-size: 28px;
+    }
+
+    .text-section p {
+        font-size: 16px;
+    }
+
+    .btn {
+        display: block;
+        margin: 10px auto;
+        width: 70%;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="text-section">
+        <h1>Welcome To Green School Plant ID 🌿</h1>
+        <p>
+        Aplikasi identifikasi dan perawatan tanaman herbal di sekolah.
+        Belajar menanam, merawat, dan menjaga lingkungan jadi lebih mudah!
+        </p>
+
+        <a href="register.html" class="btn">Register</a>
+        <a href="login.html" class="btn">Login</a>
+    </div>
+
+    <div class="image-section">
+        <img src="tanaman.jpg" alt="Tanaman">
+    </div>
+
+</div>
+
+</body>
+</html>
